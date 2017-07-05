@@ -372,6 +372,14 @@
       self._chat.leaveRoom(roomId);
       return false;
     });
+
+    
+    $('#firechat-toggle-minimise').on('click', function(event) {
+
+      $('#firechat-wrapper').toggleClass('firechat-minimised');
+
+      return false;
+    });
   };
 
   /**
